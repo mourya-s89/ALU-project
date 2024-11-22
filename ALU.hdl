@@ -1,0 +1,13 @@
+CHIP ALU{
+    IN a[16],b[16],sel[2];
+    OUT out[16];
+
+
+    PARTS:
+    Add16(a=a, b=b, out=addOut);
+    Inc16(in=a,out=inclOut);
+    Inc16(in=b,out=incrOut);
+    Or16(a=a, b=b, out=orOut);
+    Mux4Way16(a=addOut, b=inclOut, c=incrOut, d=orOut, sel=sel, out=out);
+
+}
