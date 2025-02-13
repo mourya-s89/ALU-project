@@ -2,7 +2,7 @@
 
 ## HalfAdder
 
-<img scr="./Screenshot 2024-11-21 134936.png" />
+<img src="./Screenshot 2024-11-21 134936.png" />
 
 ## FullAdder
 
